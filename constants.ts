@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     price: 199, // Price to be added later
     category: 'Necklaces',
     material: 'Gold',
-    image: '/products/1.jpeg',
+    image: '/products/floralnecklace.jpeg',
     images: ['/products/floralnecklace.jpeg'],
     isBestSeller: true,
     availableMetals: ['Gold']
@@ -19,19 +19,20 @@ export const PRODUCTS: Product[] = [
     category: 'Bracelets',
     material: 'Gold',
     image: '/products/knotted.jpeg',
+    images: ['/products/knotted.jpeg'],
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold'  ]
   },
   {
     id: '3',
-    
+
     name: 'Rose Themed Pendant',
     price: 235, // Price to be added later
     category: 'Necklaces',
     material: 'Gold',
-    image: '/products/3.jpeg',
-    images: ['/products/3.jpeg', '/products/3_3.jpeg'],
+    image: '/products/rosependent.jpeg',
+    images: ['/products/rosependent.jpeg'],
     isBestSeller: true, 
     availableMetals: ['Gold']
   },
