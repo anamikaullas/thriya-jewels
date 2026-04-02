@@ -145,7 +145,7 @@ export const PRODUCTS: Product[] = [
     price: 189.00,
     category: 'Necklaces',
     material: 'Gold',
-    image: '/products/pearl.jpeg',
+    image: '/products/big.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
