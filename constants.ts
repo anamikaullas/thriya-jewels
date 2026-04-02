@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     category: 'Necklaces',
     material: 'Gold',
     image: '/products/1.jpeg',
-    images: ['/products/1.jpeg', '/products/1_1.jpeg'],
+    images: ['/products/floralnecklace'],
     isBestSeller: true,
     availableMetals: ['Gold']
   },
@@ -158,7 +158,7 @@ export const PRODUCTS: Product[] = [
     availableMetals: ['Gold']
   },{
     id: '18',
-    name: 'charm necklace',
+    name: 'Multicolor charm necklace',
     price: 349.00,
     category: 'Necklaces',
     material: 'Gold',
@@ -168,7 +168,7 @@ export const PRODUCTS: Product[] = [
     availableMetals: ['Gold']
   },{
     id: '19',
-    name: 'floral bracelet',
+    name: 'Floral bracelet',
     price: 329.00,
     category: 'Bracelets',
     material: 'Gold',
@@ -177,23 +177,14 @@ export const PRODUCTS: Product[] = [
     availableSizes: ['onesize'],
     availableMetals: ['Gold'  ]
   },
-  {
-    id: '20',
-    name: 'zirconica Bracelet',
-    price: 269.00,
-    category: 'Bracelets',
-    material: 'Gold',
-    image: '/products/20_Zirconica_Bracelet.jpeg',
-    isBestSeller: true,
-    availableSizes: ['onesize'],
-    availableMetals: ['Gold', 'Silver']
-  },{
+  
+  ,{
     id: '21',
-    name: 'Statment cuff Bracelet',
+    name: 'Statment mesh layered Bracelet',
     price: 225.00,
     category: 'Bracelets',
     material: 'Gold',
-    image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
+    image: '/products/statement.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
