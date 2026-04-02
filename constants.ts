@@ -12,7 +12,8 @@ export const PRODUCTS: Product[] = [
     images: ['/products/floralnecklace.jpeg'],
     isBestSeller: true,
     availableMetals: ['Gold']
-  },,{
+  },
+  {
     id: '2',
     name: 'Knotted  Bracelet ',
     price: 269.00,
@@ -43,7 +44,7 @@ export const PRODUCTS: Product[] = [
     category: 'Rings',
     material: 'Gold',
     image: '/products/4_129.jpeg',
-    availableMetals: ['Gold', 'Silver']
+    availableMetals: ['Gold']
   },
   {
     id: '5',
@@ -174,7 +175,7 @@ export const PRODUCTS: Product[] = [
     price: 349.00,
     category: 'Necklaces',
     material: 'Gold',
-    image: 'public/products/charm necklace.jpeg',
+    image: '/products/charm necklace.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
@@ -189,8 +190,7 @@ export const PRODUCTS: Product[] = [
     availableSizes: ['onesize'],
     availableMetals: ['Gold'  ]
   },
-  
-  ,{
+  {
     id: '21',
     name: 'Statment mesh layered Bracelet',
     price: 225.00,
@@ -204,7 +204,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '21',
     name: 'Tennis Bracelet',
-    price: 225.00,
+    price: 269.00,
     category: 'Bracelets',
     material: 'Silver',
     image: '/products/tennis bracelet.jpeg',
@@ -226,7 +226,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '24',
     name: 'Heart melt earrings',
-    price: 199.00,
+    price: 149.00,
     category: 'Earrings',
     material: 'Gold',
     image: '/products/heartdrip.jpeg',
@@ -235,8 +235,8 @@ export const PRODUCTS: Product[] = [
     availableMetals: ['Gold']
   },{
     id: '25',
-    name: 'melt earrings',
-    price: 199.00,
+    name: ' quirking melt earrings',
+    price: 149.00,
     category: 'Earrings',
     material: 'Gold',
     image: '/products/melt.jpeg',
@@ -244,7 +244,6 @@ export const PRODUCTS: Product[] = [
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
   },
-  ,
   {
     id: '23',
     name: 'Gold heart earrings',
