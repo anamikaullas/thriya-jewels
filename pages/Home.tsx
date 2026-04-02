@@ -147,9 +147,9 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               { name: 'Earrings', img: '/products/7_199.jpeg' },
-              { name: 'Necklaces', img: '/products/1.jpeg' },
+              { name: 'Necklaces', img: '/products/rosependent.jpeg' },
               { name: 'Rings', img: '/products/10_129.jpeg' },
-              { name: 'Bracelets', img: '/products/8_Gold_plated_Bangle_Style_Cuff_Bracelet235.jpeg' }
+              { name: 'Bracelets', img: '/products/tennis bracelet.jpeg' }
             ].map((cat, idx) => (
               <Link to="/shop" key={idx} className="group relative overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 active:scale-95">
                 <div className="relative aspect-[3/4] overflow-hidden bg-gray-100">
