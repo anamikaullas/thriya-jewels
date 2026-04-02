@@ -96,17 +96,7 @@ export const PRODUCTS: Product[] = [
     availableSizes: ['adjustable'],
     availableMetals: ['Gold']
   },
-  {
-    id: '11',
-    name: 'Gold Plated Knotted Cuff Bracelet',
-    price: 249.00,
-    category: 'Bracelets',
-    material: 'Gold',
-    image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
-    isBestSeller: true,
-    availableSizes: ['onesize'],
-    availableMetals: ['Gold']
-  },
+
   {
     id: '12',
     name: 'Blue heart Necklace',
@@ -124,7 +114,7 @@ export const PRODUCTS: Product[] = [
     price: 229.00,
     category: 'Necklaces',
     material: 'Gold',
-    image: '/products/pink heart earrings.jpeg',
+    image: '/products/pink heart earring.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Silver']
@@ -145,7 +135,7 @@ export const PRODUCTS: Product[] = [
     price: 199.00,
     category: 'Earrings',
     material: 'Gold',
-    image: '/products/heartdropearrings.jpeg',
+    image: '/products/7_199.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
