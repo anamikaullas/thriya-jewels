@@ -9,12 +9,23 @@ export const PRODUCTS: Product[] = [
     category: 'Necklaces',
     material: 'Gold',
     image: '/products/1.jpeg',
-    images: ['/products/floralnecklace'],
+    images: ['/products/floralnecklace.jpeg'],
     isBestSeller: true,
     availableMetals: ['Gold']
+  },,{
+    id: '2',
+    name: 'Knotted  Bracelet ',
+    price: 269.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/knotted.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold'  ]
   },
   {
     id: '3',
+    
     name: 'Rose Themed Pendant',
     price: 235, // Price to be added later
     category: 'Necklaces',
