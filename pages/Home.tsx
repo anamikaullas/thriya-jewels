@@ -129,7 +129,7 @@ const Home: React.FC = () => {
               we speant hours handpicked each of our pieces we belive in quality over quantity also We believe luxury lies in dedication and the stories carried through generations.
             </p>
             <Link to="/story" className="inline-flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] font-bold text-gray-900 hover:text-[#e2b4b4] transition-colors group">
-              Our Craftsmanship              <h2 className="text-4xl md:text-6xl serif italic font-light text-gray-900 leading-tight">Handcrafted Excellence</h2> <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
+                          <h2 className="text-4xl md:text-6xl serif italic font-light text-gray-900 leading-tight"></h2> <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
         </div>
