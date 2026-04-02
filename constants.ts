@@ -14,17 +14,6 @@ export const PRODUCTS: Product[] = [
     availableMetals: ['Gold']
   },
   {
-    id: '2',
-    name: 'Contemporary Pendant',
-    price: 189, // Price to be added later
-    category: 'Necklaces',
-    material: 'Gold',
-    image: '/products/2.jpeg',
-    images: ['/products/2.jpeg', '/products/2_2.jpeg'],
-    isBestSeller: true,
-    availableMetals: ['Gold']
-  },
-  {
     id: '3',
     name: 'Rose Themed Pendant',
     price: 235, // Price to be added later
@@ -32,8 +21,8 @@ export const PRODUCTS: Product[] = [
     material: 'Gold',
     image: '/products/3.jpeg',
     images: ['/products/3.jpeg', '/products/3_3.jpeg'],
-    isBestSeller: true,
-    availableMetals: ['Gold', 'Silver', 'Rose Gold']
+    isBestSeller: true, 
+    availableMetals: ['Gold']
   },
   {
     id: '4',
@@ -51,7 +40,7 @@ export const PRODUCTS: Product[] = [
     category: 'Necklaces',
     material: 'Gold',
     image: '/products/5_129.jpeg',
-    availableMetals: ['Gold', 'Rose Gold']
+    availableMetals: ['Gold']
   },
   {
     id: '6',
@@ -61,7 +50,7 @@ export const PRODUCTS: Product[] = [
     material: 'Gold',
     image: '/products/6_179.jpeg',
     isBestSeller: true,
-    availableSizes: ['5', '6', '7', '8', '9'],
+    availableSizes: ['onesize'],
     availableMetals: ['Gold']
   },
   {
@@ -71,7 +60,7 @@ export const PRODUCTS: Product[] = [
     category: 'Earrings',
     material: 'Gold',
     image: '/products/7_199.jpeg',
-    availableSizes: ['5', '6', '7', '8', '9'],
+    availableSizes: ['onesize'],
     availableMetals: ['Gold', 'Rose Gold']
   },
   {
@@ -208,16 +197,17 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
-  },{
-    id: '22',
-    name: ' short layered cuff Bracelet',
-    price: 269.00,
+  },
+  {
+    id: '21',
+    name: 'Tennis Bracelet',
+    price: 225.00,
     category: 'Bracelets',
-    material: 'Gold',
-    image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
+    material: 'Silver',
+    image: '/products/tennis bracelet.jpeg',
     isBestSeller: true,
-    availableSizes: ['S', 'M', 'L'],
-    availableMetals: ['Gold', 'Silver']
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
   },
   {
     id: '23',
@@ -236,7 +226,7 @@ export const PRODUCTS: Product[] = [
     price: 199.00,
     category: 'Earrings',
     material: 'Gold',
-    image: '/products/heartdrio.jpeg',
+    image: '/products/heartdrip.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
@@ -251,4 +241,16 @@ export const PRODUCTS: Product[] = [
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
   },
+  ,
+  {
+    id: '23',
+    name: 'Gold heart earrings',
+    price: 109.00,
+    category: 'Earrings',
+    material: 'Gold',
+    image: '/products/goldheartearrings.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  }
 ];
