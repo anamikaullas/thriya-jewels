@@ -124,12 +124,12 @@ const Home: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 space-y-6 md:space-y-8 text-center md:text-left">
             <p className="text-[10px] uppercase tracking-[0.4em] text-[#e2b4b4] font-bold">The Heritage Collection</p>
-            <h2 className="text-4xl md:text-6xl serif italic font-light text-gray-900 leading-tight">Handcrafted Excellence</h2>
+            <h2 className="text-4xl md:text-6xl serif italic font-light text-gray-900 leading-tight">Handpicked Excellence</h2>
             <p className="text-gray-600 text-sm md:text-base leading-relaxed tracking-wide font-light max-w-md mx-auto md:mx-0">
               we speant hours handpicked each of our pieces we belive in quality over quantity also We believe luxury lies in dedication and the stories carried through generations.
             </p>
             <Link to="/story" className="inline-flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] font-bold text-gray-900 hover:text-[#e2b4b4] transition-colors group">
-              Our Craftsmanship <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
+              Our Craftsmanship              <h2 className="text-4xl md:text-6xl serif italic font-light text-gray-900 leading-tight">Handcrafted Excellence</h2> <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
         </div>
