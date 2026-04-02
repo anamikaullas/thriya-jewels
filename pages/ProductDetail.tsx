@@ -92,7 +92,6 @@ const ProductDetail: React.FC = () => {
     'Gold': 'bg-yellow-400',
     'Silver': 'bg-gray-300',
     'Rose Gold': 'bg-orange-200',
-    'Gemstones': 'bg-purple-400'
   };
 
   return (

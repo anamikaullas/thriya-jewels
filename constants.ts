@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     image: '/products/1.jpeg',
     images: ['/products/1.jpeg', '/products/1_1.jpeg'],
     isBestSeller: true,
-    availableMetals: ['Gold', 'Silver', 'Rose Gold']
+    availableMetals: ['Gold']
   },
   {
     id: '2',
@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     image: '/products/2.jpeg',
     images: ['/products/2.jpeg', '/products/2_2.jpeg'],
     isBestSeller: true,
-    availableMetals: ['Gold', 'Silver']
+    availableMetals: ['Gold']
   },
   {
     id: '3',
@@ -57,18 +57,18 @@ export const PRODUCTS: Product[] = [
     id: '6',
     name: 'Floral Themed Stud',
     price: 179.00,
-    category: 'Rings',
+    category: 'Earrings',
     material: 'Gold',
     image: '/products/6_179.jpeg',
     isBestSeller: true,
     availableSizes: ['5', '6', '7', '8', '9'],
-    availableMetals: ['Gold', 'Silver', 'Rose Gold']
+    availableMetals: ['Gold']
   },
   {
     id: '7',
     name: 'Heart Drop Earrings',
     price: 199.00,
-    category: 'Rings',
+    category: 'Earrings',
     material: 'Gold',
     image: '/products/7_199.jpeg',
     availableSizes: ['5', '6', '7', '8', '9'],
@@ -76,23 +76,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '8',
-    name: 'Gold Plated Bangle Style Cuff Bracelet',
-    price: 235.00,
-    category: 'Bracelets',
-    material: 'Gold',
-    image: '/products/8_Gold_plated_Bangle_Style_Cuff_Bracelet235.jpeg',
-    isBestSeller: true,
-    availableSizes: ['S', 'M', 'L'],
-    availableMetals: ['Gold', 'Silver']
-  },
-  {
-    id: '9',
     name: 'V-shaped Wraparound',
-    price: 189, // Price to be added later
+    price: 189.00, // Price to be added later
     category: 'Bracelets',
     material: 'Gold',
     image: '/products/9_Gold_plated_Anti-Tarnish_Stainless_Steel_V-shaped_Wraparound.jpeg',
-    availableSizes: ['S', 'M', 'L'],
+    availableSizes: ['onesize'],
     availableMetals: ['Gold', 'Silver']
   },
   {
@@ -102,7 +91,8 @@ export const PRODUCTS: Product[] = [
     category: 'Rings',
     material: 'Gold',
     image: '/products/10_129.jpeg',
-    availableMetals: ['Gold', 'Silver']
+    availableSizes: ['adjustable'],
+    availableMetals: ['Gold']
   },
   {
     id: '11',
@@ -112,7 +102,153 @@ export const PRODUCTS: Product[] = [
     material: 'Gold',
     image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
     isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },
+  {
+    id: '12',
+    name: 'Blue heart Necklace',
+    price: 229.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: '/products/blueheart.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  },
+  {
+    id: '13',
+    name: 'pink heart Necklace',
+    price: 229.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: '/products/pink heart earrings.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  } ,
+  {
+    id: '14',
+    name: 'Heart drop necklace',
+    price: 235.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: '/products/heartdrop necklace.jpeg.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '15',
+    name: 'Heart drop earrings',
+    price: 199.00,
+    category: 'Earrings',
+    material: 'Gold',
+    image: '/products/heartdropearrings.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '16',
+    name: 'big pearl necklace',
+    price: 189.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: '/products/pearl.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '17',
+    name: 'white stone necklace',
+    price: 199.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: '/products/1diamond.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '18',
+    name: 'charm necklace',
+    price: 349.00,
+    category: 'Necklaces',
+    material: 'Gold',
+    image: 'public/products/charm necklace.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '19',
+    name: 'floral bracelet',
+    price: 329.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/floralbracelet.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold'  ]
+  },
+  {
+    id: '20',
+    name: 'zirconica Bracelet',
+    price: 269.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/20_Zirconica_Bracelet.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold', 'Silver']
+  },{
+    id: '21',
+    name: 'Statment cuff Bracelet',
+    price: 225.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '22',
+    name: ' short layered cuff Bracelet',
+    price: 269.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/11_Gold_plated_Anti-Tarnish_Stainless_Steel_Knotted_Cuff_Bracelet249.jpeg',
+    isBestSeller: true,
     availableSizes: ['S', 'M', 'L'],
     availableMetals: ['Gold', 'Silver']
-  }
+  },
+  {
+    id: '23',
+    name: 'shell earrings',
+    price: 109.00,
+    category: 'Earrings',
+    material: 'Gold',
+    image: '/products/sheel earrings.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },
+  {
+    id: '24',
+    name: 'Heart melt earrings',
+    price: 199.00,
+    category: 'Earrings',
+    material: 'Gold',
+    image: '/products/heartdrio.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '25',
+    name: 'melt earrings',
+    price: 199.00,
+    category: 'Earrings',
+    material: 'Gold',
+    image: '/products/melt.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },
 ];
