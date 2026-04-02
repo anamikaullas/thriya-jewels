@@ -122,7 +122,7 @@ export const PRODUCTS: Product[] = [
     price: 235.00,
     category: 'Necklaces',
     material: 'Gold',
-    image: '/products/heartdrop necklace.jpeg.jpeg',
+    image: '/products/heartdropnecklace.jpeg',
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
