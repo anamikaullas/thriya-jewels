@@ -28,7 +28,7 @@ export const PRODUCTS: Product[] = [
     id: '4',
     name: 'Serene Flow Ring',
     price: 129.00,
-    category: 'Necklaces',
+    category: 'Rings',
     material: 'Gold',
     image: '/products/4_129.jpeg',
     availableMetals: ['Gold', 'Silver']
@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     id: '5',
     name: 'Aurora Flow Ring',
     price: 129.00,
-    category: 'Necklaces',
+    category: 'Rings',
     material: 'Gold',
     image: '/products/5_129.jpeg',
     availableMetals: ['Gold']
