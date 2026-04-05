@@ -244,5 +244,35 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Gold']
-  }
+  },{
+    id: '24',
+    name: 'Circular neckchain',
+    price: 279.00,
+    category: 'Necklaces',
+    material: 'Silver',
+    image: '/products/circle.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  },,{
+    id: '25',
+    name: 'Black square neckchain',
+    price: 249.00,
+    category: 'Necklaces',
+    material: 'Silver',
+    image: '/products/square.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  },,{
+    id: '26',
+    name: 'Triple ring neckchain',
+    price:249.00,
+    category: 'Necklaces',
+    material: 'Silver',
+    image: '/products/ring.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  },
 ];
