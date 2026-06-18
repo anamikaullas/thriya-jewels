@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     image: '/products/floralnecklace.jpeg',
     images: ['/products/floralnecklace.jpeg'],
     isBestSeller: true,
-    availableMetals: ['Gold']
+    availableMetals: ['out of stock']
   },
   {
     id: '2',
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     image: '/products/rosependent.jpeg',
     images: ['/products/rosependent.jpeg'],
     isBestSeller: true, 
-    availableMetals: ['Gold']
+    availableMetals: ['out of stock']
   },
   {
     id: '4',
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     material: 'Gold',
     image: '/products/9_Gold_plated_Anti-Tarnish_Stainless_Steel_V-shaped_Wraparound.jpeg',
     availableSizes: ['onesize'],
-    availableMetals: ['Gold', 'Silver']
+    availableMetals: ['out of stock']
   },
   {
     id: '10',
@@ -254,7 +254,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Silver']
-  },,{
+  },{
     id: '25',
     name: 'Black square neckchain',
     price: 249.00,
@@ -264,7 +264,7 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Silver']
-  },,{
+  },{
     id: '26',
     name: 'Triple ring neckchain',
     price:249.00,
@@ -274,5 +274,36 @@ export const PRODUCTS: Product[] = [
     isBestSeller: true,
     availableSizes: ['onesize'],
     availableMetals: ['Silver']
-  },
-];
+  }
+  ,{
+    id: '27',
+    name: 'Silver Plated Pink Stones Studded Anti Tarnish Tulip Bracelet',
+    price:349.00,
+    category: 'Bracelets',
+    material: 'Silver',
+    image: '/products/silver.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Silver']
+  },{
+    id: '28',
+    name: 'gold Plated multicolor Stones Studded Anti Tarnish Tulip Bracelet',
+    price:349.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/multi.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  },{
+    id: '29',
+    name: 'gold platted gold heart Anti Tarnish  Bracelet',
+    price:269.00,
+    category: 'Bracelets',
+    material: 'Gold',
+    image: '/products/goldheart.jpeg',
+    isBestSeller: true,
+    availableSizes: ['onesize'],
+    availableMetals: ['Gold']
+  }
+]
